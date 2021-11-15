@@ -50,4 +50,13 @@ main {
    }
 
   @media all and (min-width: 768px) {
+    header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    img {
+      padding-left: 30px;
+    }
     
