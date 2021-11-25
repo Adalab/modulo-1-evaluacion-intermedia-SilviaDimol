@@ -84,6 +84,7 @@ main {
     img {
       padding-left: 30px;
     }
+}
     
 @media all and (min-width: 1200px) {
   h1 {
