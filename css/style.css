@@ -3,7 +3,13 @@
     margin: 0;
   }
 
+  body {
+    font-family: 'Rubik', sans-serif;
+  }
+
 header {
+    position: fixed;
+    top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,6 +39,18 @@ img {
 
   .menu-blog {
     padding-right: 20px;
+    text-transform: uppercase;
+  }
+
+  .menu-contacto {
+    padding-right: 20px;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Rubik', sans-serif;
   }
 
 
@@ -49,14 +67,26 @@ main {
      font-size: 30px;
    }
 
-  @media all and (min-width: 768px) {
+   a {
+     padding: 10px;
+   }
+
+@media all and (min-width: 768px) {
     header {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+    }
+    h1 {
+      font-size: 30px;
     }
 
     img {
       padding-left: 30px;
     }
     
+@media all and (min-width: 1200px) {
+  h1 {
+    font-size: 40px;
+  }
+}
